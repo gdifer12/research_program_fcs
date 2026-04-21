@@ -73,12 +73,12 @@
 
 | Эксперимент | Описание | Dataset | Число запусков | Доля обучаемых параметров | `best_val_loss_mean` | `final_val_loss_mean` |
 |---|---|---|---:|---:|---:|---:|
-| `F_1` | Disable LoRA, full fine-tuning                    | `tinystoriesInstruct` | 5 | 100.00% | 1.13004 | 1.13134 |
-| `F_2` | Apply LoRA to all attention to all layers         | `tinystoriesInstruct` | 5 | 80.36%  | 1.14436 | 1.14516 |
-| `F_3` | Aply LoRA to all attention to high half of layers | `tinystoriesInstruct` | 5 | 90.16%  | 1.13860 | 1.13968 |
-| `F_4` | LoRA applied to every second layer                | `tinystoriesInstruct` | 5 | 90.16%  | 1.13738 | 1.13858 |
-| `F_5` | Apply LoRA to wte                                 | `tinystoriesInstruct` | 5 | 59.87%  | 1.15140 | 1.15158 |
-| `F_6` | LoRA on wte and every second layer                | `tinystoriesInstruct` | 5 | 50.19%  | 1.17032 | 1.17042 |
+| `F_1` | `tinystoriesInstruct` | 5 | 100.00% | 1.13004 | 1.13134 |
+| `F_2` | `tinystoriesInstruct` | 5 | 80.36%  | 1.14436 | 1.14516 |
+| `F_3` | `tinystoriesInstruct` | 5 | 90.16%  | 1.13860 | 1.13968 |
+| `F_4` | `tinystoriesInstruct` | 5 | 90.16%  | 1.13738 | 1.13858 |
+| `F_5` | `tinystoriesInstruct` | 5 | 59.87%  | 1.15140 | 1.15158 |
+| `F_6` | `tinystoriesInstruct` | 5 | 50.19%  | 1.17032 | 1.17042 |
 
 По этой сводной таблице видно, что в данном наборе экспериментов наилучшее качество показывает `F_1`, то есть **полный fine-tuning без LoRA**. Среди LoRA-вариантов лучшим по `best_val_loss_mean` оказывается `F_4`, где LoRA применяется в каждом втором слое. При этом `F_6` даёт наименьшую долю обучаемых параметров, но и наиболее заметную просадку по качеству.
 
