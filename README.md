@@ -71,7 +71,7 @@
 
 Ниже приведена краткая сводка на основе файла `research_program_fcs/fine-tune-lora-2/res/summary_ftl_significant.csv`.
 
-| Эксперимент | Доля обучаемых параметров | `best_val_loss_mean` | `final_val_loss_mean` |
+| ID | Доля обучаемых параметров | `best_val_loss_mean` | `final_val_loss_mean` |
 |---|---:|---:|---:|
 | `F_1` | 100.00% | 1.13004 | 1.13134 |
 | `F_2` | 80.36%  | 1.14436 | 1.14516 |
