@@ -9,7 +9,7 @@ save_best_to_different = True
 # -----------------------------------------------------------------------------
 # Initialization
 init_from = 'resume'
-model_path = "/home/alaltischenko/proj/tinyllm/fine-tune-2/runs/3654739_3_ft2_F_base_2026-02-26_06-48-53/out/ckpt_best.pt"
+model_path = "fine-tune-2/runs/3654739_3_ft2_F_base_2026-02-26_06-48-53/out/ckpt_best.pt"
 
 # -----------------------------------------------------------------------------
 # Data
