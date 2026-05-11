@@ -46,7 +46,7 @@ REPO_DIR="${REPO_DIR:-$PROJECT_DIR/repos/nanoGPT}"
 [[ -d "$REPO_DIR" ]] || die "REPO_DIR does not exist: $REPO_DIR"
 [[ -f "$REPO_DIR/train.py" ]] || die "Not a nanoGPT repo: $REPO_DIR"
 
-MODULE_SET="${MODULE_SET:-"nanogpt-3"}"
+MODULE_SET="${MODULE_SET:-"nanogpt-4"}"
 ENVNAME="${ENVNAME:-/home/$USER/proj/tinyllm/envs/nanogpt-3/bin/activate}"
 ensure_file "$ENVNAME"
 
@@ -115,6 +115,9 @@ cd "$REPO_DIR"
 module purge
 module restore $MODULE_SET
 source $ENVNAME # python environment
+
+module describe $MODULE_SET > "$RUN_DIR/logs/modules.txt"
+pip list > "$RUN_DIR/logs/pythonenv.txt"
 
 log_section "BLOCK 3: ENVIRONMENT SETUP"
 echo "MODULES     : $MODULE_SET"
