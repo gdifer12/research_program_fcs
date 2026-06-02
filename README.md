@@ -97,15 +97,15 @@ $$
 
 **Part #2:**
 
-| ID     | `wte/wpe` | `ln_f` | `ln_1/ln_2` | LoRA            | Fake quant      | Freeze    | Комментарий                                                                                              |
-| ------ | --------: | -----: | ----------: | --------------- | --------------- | --------- | -------------------------------------------------------------------------------------------------------- |
-| `F_7`  |         - |      - |           - | attention + MLP | attention + MLP | all       | Adapter-only qLoRA: вся базовая модель заморожена, обучаются только LoRA-адаптеры                        |
-| `F_8`  |         + |      + |           - | attention + MLP | attention + MLP | `h[i]`    | qLoRA с trainable embeddings; сравнивается с `F_7` как эффект unfreeze `wte/wpe/ln_f`                    |
-| `F_9`  |         + |      + |           + | attention       | attention       | attention | qLoRA-аналог `F_2`: заморожены только базовые attention-матрицы, остальные параметры обучаются           |
-| `F_10` |         + |      + |           - | attention       | -               | `h[i]`    | LoRA attention при замороженных transformer-блоках |
-| `F_11` |         + |      + |           - | attention       | attention       | `h[i]`    | qLoRA-пара к `F_10`: проверяет эффект fake quantization при тех же LoRA/freeze targets                   |
-| `F_12` |         + |      + |           - | attention + MLP | -               | `h[i]`    | LoRA-пара к `F_8`: проверяет эффект fake quantization для attention+MLP adapters                         |
-| `F_16` |         + |      + |           - | attention       | attention + MLP | `h[i]`    | quantization шире, чем LoRA |
+| ID     | `wte/wpe` | `ln_f` | `ln_1/2` | LoRA            | Quant           | Freeze    | Комментарий                                                                                              |
+| ------ | --------: | -----: | -------: | --------------- | --------------- | --------- | -------------------------------------------------------------------------------------------------------- |
+| `F_7`  |         - |      - |        - | attention + MLP | attention + MLP | all       | Adapter-only qLoRA: вся базовая модель заморожена, обучаются только LoRA-адаптеры                        |
+| `F_8`  |         + |      + |        - | attention + MLP | attention + MLP | `h[i]`    | qLoRA с trainable embeddings; сравнивается с `F_7` как эффект unfreeze `wte/wpe/ln_f`                    |
+| `F_9`  |         + |      + |        + | attention       | attention       | attention | qLoRA-аналог `F_2`: заморожены только базовые attention-матрицы, остальные параметры обучаются           |
+| `F_10` |         + |      + |        - | attention       | -               | `h[i]`    | LoRA attention при замороженных transformer-блоках |
+| `F_11` |         + |      + |        - | attention       | attention       | `h[i]`    | qLoRA-пара к `F_10`: проверяет эффект fake quantization при тех же LoRA/freeze targets                   |
+| `F_12` |         + |      + |        - | attention + MLP | -               | `h[i]`    | LoRA-пара к `F_8`: проверяет эффект fake quantization для attention+MLP adapters                         |
+| `F_16` |         + |      + |        - | attention       | attention + MLP | `h[i]`    | quantization шире, чем LoRA |
 
 - `+` — параметры этой части модели обучаются; `-` — параметры заморожены.
 - `attention` означает `c_attn` и `c_proj` внутри self-attention.
@@ -160,6 +160,7 @@ Cводка на основе аггрегированных результат�
 
 - % параметров - доля обучающихся параметров оносительное полной модели
 - cmp - ID эксперимента, с которым имеет смысл сравнивать 
+- `Δ` к `baseline` расчитывается на основании более точных показателей из полных таблиц
 
 
 (полные таблицы результатов лежат [здесь](https://github.com/gdifer12/research_program_fcs/tree/main/fine-tune-lora-2/res), в `significant` версии оставлены только основные характериситики и только те поля, где значения статистически отличаются от `F_1`)
