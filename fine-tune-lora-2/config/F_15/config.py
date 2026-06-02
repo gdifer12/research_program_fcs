@@ -33,13 +33,34 @@ bias = False
 # BPE vocab (GPT-2 is 50257; 50304 = rounded up for efficiency, как в openwebtext-конфигах)
 vocab_size = 50304
 
-# LoRa settings
+# =============================================================================
+# F_15: LoRA_attention_mlp_h_frozen_tokens_frozen
+# Pair: F_7 = fake-qLoRA_attention_mlp_h_frozen_tokens_frozen from the old run
+# Purpose: LoRA counterpart of the already completed F_7.
+# Trainable now: LoRA A/B for attention+MLP + ln_f.
+# Frozen now:    wte/wpe + original h[i], including ln_1/ln_2.
+# Caveat:        F_7's actual trainable-parameter count suggests no ln_f was trainable
+#                in that old run. Current train.py cannot reproduce that exactly by
+#                config only; add freeze_ln_f=True for a strict pair.
+# =============================================================================
+qlora_enable = False
+
 lora_enable = True
-lora_targets = "attn.c_attn,attn.c_proj"
+lora_targets = "all-linear"
 lora_target_layers = "all"
 lora_rank = 8
-lora_alpha = 8.0
+lora_alpha = 1.0
 lora_bias = False
+lora_merge_weights = True
+
+# Freeze h[i] before inserting LoRA, but apply no quantization.
+quant_enable = True
+quant_targets = ""
+quant_target_layers = ""
+quant_freeze_base = True
+
+freeze_n_layers = 0
+freeze_embeddings = True # weight tying is applying
 
 # -----------------------------------------------------------------------------
 # optimizer

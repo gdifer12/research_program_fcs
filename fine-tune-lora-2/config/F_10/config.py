@@ -36,10 +36,10 @@ vocab_size = 50304
 # LoRa settings
 lora_enable = True
 lora_targets = "attn.c_attn,attn.c_proj"
-lora_target_layers = "all"
-lora_rank = 8
-lora_alpha = 8.0
-lora_bias = False
+quant_enable = True # need to freeze mlp & lm before lora apply
+quant_targets = ""
+quant_target_layers = ""
+quant_freeze_base = True
 
 # -----------------------------------------------------------------------------
 # optimizer

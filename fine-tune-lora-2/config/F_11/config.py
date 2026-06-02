@@ -33,13 +33,33 @@ bias = False
 # BPE vocab (GPT-2 is 50257; 50304 = rounded up for efficiency, как в openwebtext-конфигах)
 vocab_size = 50304
 
-# LoRa settings
-lora_enable = True
+# =============================================================================
+# F_11: fake-qLoRA_attention_h_frozen_tokens_unfrozen
+# Pair: F_10 = LoRA_attention_h_frozen_tokens_unfrozen
+# Purpose: isolate the effect of fake quantization for attention-only adapters
+#          under the same h[i]-frozen, tokens-unfrozen setting.
+# Trainable: LoRA A/B for attention + wte/wpe + ln_f.
+# Frozen:    original h[i], including ln_1/ln_2 and all base linear weights.
+# =============================================================================
+qlora_enable = True
+
 lora_targets = "attn.c_attn,attn.c_proj"
 lora_target_layers = "all"
 lora_rank = 8
-lora_alpha = 8.0
+lora_alpha = 1.0
 lora_bias = False
+lora_merge_weights = False
+
+quant_backend = "fake"
+quant_mode = "int8"
+quant_targets = "attn.c_attn,attn.c_proj"
+quant_target_layers = "all"
+quant_freeze_base = True
+quant_fake_weight_per_channel = True
+quant_fake_act_bits = 0
+
+freeze_n_layers = 0
+freeze_embeddings = False
 
 # -----------------------------------------------------------------------------
 # optimizer
