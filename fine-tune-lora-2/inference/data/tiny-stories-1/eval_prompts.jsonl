@@ -1,0 +1,140 @@
+{"prompt_id": "cont_001", "prompt_type": "continuation", "prompt": "Mia found a tiny yellow shoe beside the garden gate."}
+{"prompt_id": "cont_002", "prompt_type": "continuation", "prompt": "Ben and his puppy ran across the sunny playground."}
+{"prompt_id": "cont_003", "prompt_type": "continuation", "prompt": "Lily wanted to make a card for her sick teddy bear."}
+{"prompt_id": "cont_004", "prompt_type": "continuation", "prompt": "One rainy day, Sam saw a blue kite stuck in a tree."}
+{"prompt_id": "cont_005", "prompt_type": "continuation", "prompt": "Nora put three cookies on a plate for her friends."}
+{"prompt_id": "cont_006", "prompt_type": "continuation", "prompt": "The little rabbit heard a soft noise under the table."}
+{"prompt_id": "cont_007", "prompt_type": "continuation", "prompt": "Max carried a big green book into the quiet library."}
+{"prompt_id": "cont_008", "prompt_type": "continuation", "prompt": "Ella and her brother built a blanket fort in the bedroom."}
+{"prompt_id": "cont_009", "prompt_type": "continuation", "prompt": "A small brown mouse peeked out from behind the toy box."}
+{"prompt_id": "cont_010", "prompt_type": "continuation", "prompt": "Ruby dropped her apple while walking to school."}
+{"prompt_id": "cont_011", "prompt_type": "continuation", "prompt": "The friendly bear found a shiny spoon near the picnic blanket."}
+{"prompt_id": "cont_012", "prompt_type": "continuation", "prompt": "Tom's cat hid inside a cardboard box after lunch."}
+{"prompt_id": "cont_013", "prompt_type": "continuation", "prompt": "A bird with wet feathers landed on the windowsill."}
+{"prompt_id": "cont_014", "prompt_type": "continuation", "prompt": "Sofia saw her red ball roll into the flower bed."}
+{"prompt_id": "cont_015", "prompt_type": "continuation", "prompt": "Leo forgot his hat on the bench at the park."}
+{"prompt_id": "cont_016", "prompt_type": "continuation", "prompt": "The teacher placed a bright box on the classroom table."}
+{"prompt_id": "cont_017", "prompt_type": "continuation", "prompt": "Grace wanted to help Dad wash the muddy dog."}
+{"prompt_id": "cont_018", "prompt_type": "continuation", "prompt": "A little frog hopped into the kitchen by mistake."}
+{"prompt_id": "cont_019", "prompt_type": "continuation", "prompt": "Owen found a broken toy truck behind the sofa."}
+{"prompt_id": "cont_020", "prompt_type": "continuation", "prompt": "Hannah and her friend planted a seed in a small pot."}
+{"prompt_id": "cont_021", "prompt_type": "continuation", "prompt": "The puppy wagged his tail when he saw the birthday cake."}
+{"prompt_id": "cont_022", "prompt_type": "continuation", "prompt": "Jack heard a tiny bell ring inside his toy basket."}
+{"prompt_id": "cont_023", "prompt_type": "continuation", "prompt": "Ava spilled water on her picture and felt sad."}
+{"prompt_id": "cont_024", "prompt_type": "continuation", "prompt": "The old garden gate squeaked when the children opened it."}
+{"prompt_id": "cont_025", "prompt_type": "continuation", "prompt": "Milo's little sister could not reach her favorite book."}
+{"prompt_id": "cont_026", "prompt_type": "continuation", "prompt": "The kitten followed a yellow butterfly across the yard."}
+{"prompt_id": "cont_027", "prompt_type": "continuation", "prompt": "Sara found a soft blue blanket in the laundry basket."}
+{"prompt_id": "cont_028", "prompt_type": "continuation", "prompt": "Noah and his grandma made soup on a cold afternoon."}
+{"prompt_id": "cont_029", "prompt_type": "continuation", "prompt": "The shy dog waited by the school fence."}
+{"prompt_id": "cont_030", "prompt_type": "continuation", "prompt": "Emma opened her lunch box and saw an extra cookie."}
+{"prompt_id": "cont_031", "prompt_type": "continuation", "prompt": "The little bear lost his scarf on the forest path."}
+{"prompt_id": "cont_032", "prompt_type": "continuation", "prompt": "Finn tried to tie his shoe before the game started."}
+{"prompt_id": "cont_033", "prompt_type": "continuation", "prompt": "A pink flower grew beside the small white fence."}
+{"prompt_id": "cont_034", "prompt_type": "continuation", "prompt": "Zoe heard her baby brother laugh from the playroom."}
+{"prompt_id": "cont_035", "prompt_type": "continuation", "prompt": "The sleepy cat curled up inside a warm laundry basket."}
+{"prompt_id": "cont_036", "prompt_type": "continuation", "prompt": "Daniel brought a small shell home from the beach."}
+{"prompt_id": "cont_037", "prompt_type": "continuation", "prompt": "The farm duck followed Lucy all the way to the barn."}
+{"prompt_id": "cont_038", "prompt_type": "continuation", "prompt": "A toy boat floated under the chair after bath time."}
+{"prompt_id": "cont_039", "prompt_type": "continuation", "prompt": "Ivy and her teacher looked for the missing paintbrush."}
+{"prompt_id": "cont_040", "prompt_type": "continuation", "prompt": "The small bird dropped a ribbon beside the sandbox."}
+{"prompt_id": "inst_001", "prompt_type": "instruct", "prompt": "Write a short story about a little rabbit who learns to share a carrot."}
+{"prompt_id": "inst_002", "prompt_type": "instruct", "prompt": "Write a simple story for a young child about finding a lost toy bear."}
+{"prompt_id": "inst_003", "prompt_type": "instruct", "prompt": "Write a short story about two friends who clean up a messy garden."}
+{"prompt_id": "inst_004", "prompt_type": "instruct", "prompt": "Write a happy story about a boy and a dog at the park."}
+{"prompt_id": "inst_005", "prompt_type": "instruct", "prompt": "Write a short story about a girl who says sorry after breaking a toy."}
+{"prompt_id": "inst_006", "prompt_type": "instruct", "prompt": "Write a simple story about a cat who is afraid of rain but becomes brave."}
+{"prompt_id": "inst_007", "prompt_type": "instruct", "prompt": "Write a short story about a teacher helping a child read a book."}
+{"prompt_id": "inst_008", "prompt_type": "instruct", "prompt": "Write a gentle story about a mouse who finds a new friend."}
+{"prompt_id": "inst_009", "prompt_type": "instruct", "prompt": "Write a short story about a child sharing cookies with a sibling."}
+{"prompt_id": "inst_010", "prompt_type": "instruct", "prompt": "Write a simple story about a frog who wants to jump over a puddle."}
+{"prompt_id": "inst_011", "prompt_type": "instruct", "prompt": "Write a story for a young child about being patient while waiting for cake."}
+{"prompt_id": "inst_012", "prompt_type": "instruct", "prompt": "Write a short story about a bird helping a lost kitten."}
+{"prompt_id": "inst_013", "prompt_type": "instruct", "prompt": "Write a simple story about a bear who learns to be gentle."}
+{"prompt_id": "inst_014", "prompt_type": "instruct", "prompt": "Write a happy story about a girl and her grandma baking bread."}
+{"prompt_id": "inst_015", "prompt_type": "instruct", "prompt": "Write a short story about a boy who finds a hat and returns it."}
+{"prompt_id": "inst_016", "prompt_type": "instruct", "prompt": "Write a simple story about two children building a sandcastle at the beach."}
+{"prompt_id": "inst_017", "prompt_type": "instruct", "prompt": "Write a short story about a puppy learning not to grab food."}
+{"prompt_id": "inst_018", "prompt_type": "instruct", "prompt": "Write a story about a little girl who helps her brother tie his shoe."}
+{"prompt_id": "inst_019", "prompt_type": "instruct", "prompt": "Write a short story about a rabbit and a turtle playing nicely."}
+{"prompt_id": "inst_020", "prompt_type": "instruct", "prompt": "Write a simple story with a lesson about telling the truth."}
+{"prompt_id": "inst_021", "prompt_type": "instruct", "prompt": "Write a short story about a child who cleans up blocks after playtime."}
+{"prompt_id": "inst_022", "prompt_type": "instruct", "prompt": "Write a happy story about a cat and dog becoming friends."}
+{"prompt_id": "inst_023", "prompt_type": "instruct", "prompt": "Write a short story about a boy who learns to wait his turn on the slide."}
+{"prompt_id": "inst_024", "prompt_type": "instruct", "prompt": "Write a simple story about a girl who waters a tiny flower."}
+{"prompt_id": "inst_025", "prompt_type": "instruct", "prompt": "Write a short story about a bird who drops a seed and grows a plant."}
+{"prompt_id": "inst_026", "prompt_type": "instruct", "prompt": "Write a story for a young child about a lost red ball."}
+{"prompt_id": "inst_027", "prompt_type": "instruct", "prompt": "Write a short story about two friends sharing a blue umbrella."}
+{"prompt_id": "inst_028", "prompt_type": "instruct", "prompt": "Write a simple story about a dog who brings back a missing shoe."}
+{"prompt_id": "inst_029", "prompt_type": "instruct", "prompt": "Write a short story about a child making a card for a friend."}
+{"prompt_id": "inst_030", "prompt_type": "instruct", "prompt": "Write a happy story about a small bear who learns to ask politely."}
+{"prompt_id": "inst_031", "prompt_type": "instruct", "prompt": "Write a short story about a girl who helps a scared frog."}
+{"prompt_id": "inst_032", "prompt_type": "instruct", "prompt": "Write a simple story about a boy reading to his little sister."}
+{"prompt_id": "inst_033", "prompt_type": "instruct", "prompt": "Write a short story about a child who learns not to shout indoors."}
+{"prompt_id": "inst_034", "prompt_type": "instruct", "prompt": "Write a story about a teacher and a class pet mouse."}
+{"prompt_id": "inst_035", "prompt_type": "instruct", "prompt": "Write a short story about a girl and a kite on a windy day."}
+{"prompt_id": "inst_036", "prompt_type": "instruct", "prompt": "Write a simple story about a boy who gives his last cookie to a friend."}
+{"prompt_id": "inst_037", "prompt_type": "instruct", "prompt": "Write a short story about a puppy who waits calmly by the door."}
+{"prompt_id": "inst_038", "prompt_type": "instruct", "prompt": "Write a gentle story about a child who finds a bird feather."}
+{"prompt_id": "inst_039", "prompt_type": "instruct", "prompt": "Write a short story about friends making soup together."}
+{"prompt_id": "inst_040", "prompt_type": "instruct", "prompt": "Write a simple story about a rabbit who cleans his small room."}
+{"prompt_id": "inst_041", "prompt_type": "instruct", "prompt": "Write a happy story about a boy who finds his lost blanket."}
+{"prompt_id": "inst_042", "prompt_type": "instruct", "prompt": "Write a short story about a girl who shares crayons at school."}
+{"prompt_id": "inst_043", "prompt_type": "instruct", "prompt": "Write a simple story about a bear helping a bird build a nest."}
+{"prompt_id": "inst_044", "prompt_type": "instruct", "prompt": "Write a story for a young child about a toy boat in the bathtub."}
+{"prompt_id": "inst_045", "prompt_type": "instruct", "prompt": "Write a short story about a boy who apologizes to his friend."}
+{"prompt_id": "inst_046", "prompt_type": "instruct", "prompt": "Write a simple story about a cat who learns to come when called."}
+{"prompt_id": "inst_047", "prompt_type": "instruct", "prompt": "Write a short story about a child and parent planting flowers."}
+{"prompt_id": "inst_048", "prompt_type": "instruct", "prompt": "Write a happy story about a frog making friends at the pond."}
+{"prompt_id": "inst_049", "prompt_type": "instruct", "prompt": "Write a short story about a girl who is brave in the dark bedroom."}
+{"prompt_id": "inst_050", "prompt_type": "instruct", "prompt": "Write a simple story about a mouse who shares cheese with a friend."}
+{"prompt_id": "inst_051", "prompt_type": "instruct", "prompt": "Write a short story about a class helping a new student feel welcome."}
+{"prompt_id": "inst_052", "prompt_type": "instruct", "prompt": "Write a story about a dog who finds a mitten in the snow."}
+{"prompt_id": "inst_053", "prompt_type": "instruct", "prompt": "Write a short story about two siblings learning to take turns."}
+{"prompt_id": "inst_054", "prompt_type": "instruct", "prompt": "Write a simple story about a child who feeds a farm duck."}
+{"prompt_id": "inst_055", "prompt_type": "instruct", "prompt": "Write a short story about a girl who fixes a torn paper crown."}
+{"prompt_id": "inst_056", "prompt_type": "instruct", "prompt": "Write a happy story about a boy and his friend flying a kite."}
+{"prompt_id": "inst_057", "prompt_type": "instruct", "prompt": "Write a simple story about a teacher praising a child for helping."}
+{"prompt_id": "inst_058", "prompt_type": "instruct", "prompt": "Write a short story about a kitten who learns to be patient."}
+{"prompt_id": "inst_059", "prompt_type": "instruct", "prompt": "Write a story for a young child about a picnic with friends."}
+{"prompt_id": "inst_060", "prompt_type": "instruct", "prompt": "Write a short story about a boy who cleans mud from his boots."}
+{"prompt_id": "cons_001", "prompt_type": "constraints", "prompt": "Write a short story about a cat and a boy. Include the words garden, red, and sorry."}
+{"prompt_id": "cons_002", "prompt_type": "constraints", "prompt": "Write a simple story with exactly two characters: Anna and a small dog. The story should have a happy ending."}
+{"prompt_id": "cons_003", "prompt_type": "constraints", "prompt": "Write a short story about sharing. Include one line of dialogue."}
+{"prompt_id": "cons_004", "prompt_type": "constraints", "prompt": "Write a simple story about a rabbit. The rabbit must apologize and then share a carrot."}
+{"prompt_id": "cons_005", "prompt_type": "constraints", "prompt": "Write a short story about a lost ball. End with the words: They played together."}
+{"prompt_id": "cons_006", "prompt_type": "constraints", "prompt": "Write a story about a girl at school. Include the words teacher, book, and kind."}
+{"prompt_id": "cons_007", "prompt_type": "constraints", "prompt": "Write a short story about a puppy. The puppy must wait calmly before getting a treat."}
+{"prompt_id": "cons_008", "prompt_type": "constraints", "prompt": "Write a simple story with a bear and a bird. Include one sentence that starts with The bear."}
+{"prompt_id": "cons_009", "prompt_type": "constraints", "prompt": "Write a short story about cleaning a room. Include the words blocks, blanket, and box."}
+{"prompt_id": "cons_010", "prompt_type": "constraints", "prompt": "Write a story about two friends. One friend must say thank you."}
+{"prompt_id": "cons_011", "prompt_type": "constraints", "prompt": "Write a short story about a child and a frog. Keep the story short and end happily."}
+{"prompt_id": "cons_012", "prompt_type": "constraints", "prompt": "Write a simple story about a lost hat. Include the words park, bench, and found."}
+{"prompt_id": "cons_013", "prompt_type": "constraints", "prompt": "Write a short story about a mouse. The mouse must help a friend and learn a lesson."}
+{"prompt_id": "cons_014", "prompt_type": "constraints", "prompt": "Write a story about a birthday cake. Include one line of dialogue and a happy ending."}
+{"prompt_id": "cons_015", "prompt_type": "constraints", "prompt": "Write a simple story about a girl and a cat. Include the word gentle at least once."}
+{"prompt_id": "cons_016", "prompt_type": "constraints", "prompt": "Write a short story about a boy helping his parent. The boy must clean up a spill."}
+{"prompt_id": "cons_017", "prompt_type": "constraints", "prompt": "Write a simple story about a bird. Use the words nest, small, and happy."}
+{"prompt_id": "cons_018", "prompt_type": "constraints", "prompt": "Write a short story about two siblings. They must take turns with one toy."}
+{"prompt_id": "cons_019", "prompt_type": "constraints", "prompt": "Write a story about a rainy day. Include a dog, an umbrella, and the word share."}
+{"prompt_id": "cons_020", "prompt_type": "constraints", "prompt": "Write a simple story about a teacher and a child. The child must say sorry and fix the mistake."}
+{"prompt_id": "ood_001", "prompt_type": "ood_simple", "prompt": "Explain what a toy box is in one simple sentence."}
+{"prompt_id": "ood_002", "prompt_type": "ood_simple", "prompt": "List three nice things a child can do for a friend."}
+{"prompt_id": "ood_003", "prompt_type": "ood_simple", "prompt": "Rewrite this sentence in simpler English: The puppy was extremely joyful."}
+{"prompt_id": "ood_004", "prompt_type": "ood_simple", "prompt": "Turn this into a polite request: Give me the ball."}
+{"prompt_id": "ood_005", "prompt_type": "ood_simple", "prompt": "Describe a sunny park in two short sentences."}
+{"prompt_id": "ood_006", "prompt_type": "ood_simple", "prompt": "Explain why sharing toys can be kind in one or two sentences."}
+{"prompt_id": "ood_007", "prompt_type": "ood_simple", "prompt": "List three things a child might see in a garden."}
+{"prompt_id": "ood_008", "prompt_type": "ood_simple", "prompt": "Rewrite this sentence in simpler English: The small child assisted her mother."}
+{"prompt_id": "ood_009", "prompt_type": "ood_simple", "prompt": "Turn this into a polite request: Move your bag."}
+{"prompt_id": "ood_010", "prompt_type": "ood_simple", "prompt": "Explain what a blanket is in one simple sentence."}
+{"prompt_id": "ood_011", "prompt_type": "ood_simple", "prompt": "List three quiet things to do in a library."}
+{"prompt_id": "ood_012", "prompt_type": "ood_simple", "prompt": "Describe a messy bedroom in two short sentences."}
+{"prompt_id": "ood_013", "prompt_type": "ood_simple", "prompt": "Explain how to say sorry in a kind way."}
+{"prompt_id": "ood_014", "prompt_type": "ood_simple", "prompt": "List three animals that could be in a gentle story."}
+{"prompt_id": "ood_015", "prompt_type": "ood_simple", "prompt": "Rewrite this sentence in simpler English: The kitten was frightened by the loud noise."}
+{"prompt_id": "ood_016", "prompt_type": "ood_simple", "prompt": "Turn this into a polite request: Help me clean up."}
+{"prompt_id": "ood_017", "prompt_type": "ood_simple", "prompt": "Explain what a school playground is in one simple sentence."}
+{"prompt_id": "ood_018", "prompt_type": "ood_simple", "prompt": "List three ways to be patient while waiting."}
+{"prompt_id": "ood_019", "prompt_type": "ood_simple", "prompt": "Describe a happy puppy in two short sentences."}
+{"prompt_id": "ood_020", "prompt_type": "ood_simple", "prompt": "Rewrite this sentence in simpler English: The girl carefully placed the flower on the table."}

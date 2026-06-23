@@ -1,0 +1,4 @@
+Collection "nanogpt-4" contains: 
+   1) tools/autotools    3) StdEnv    5) gnu9/9.3
+   2) openmpi            4) CUDA      6) Python/PyTorch_GPU_v2.4
+

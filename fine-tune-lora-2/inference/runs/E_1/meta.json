@@ -1,0 +1,27 @@
+{
+  "base": {
+    "model_hash": "80e603240e",
+    "model_path": "/home/alaltischenko/proj/tinyllm/fine-tune-2/runs/3654739_3_ft2_F_base_2026-02-26_06-48-53/out/ckpt_best.pt",
+    "output_file": "base.jsonl"
+  },
+  "ftl_F_1": {
+    "model_hash": "d52f8b4ac2",
+    "model_path": "/home/alaltischenko/proj/tinyllm/fine-tune-lora-2/inference/config/E_1/../../../runs/3834480_3_ftl_F_1_2026-04-06_05-08-58/out/ckpt_best.pt",
+    "output_file": "ftl_F_1.jsonl"
+  },
+  "ftl_F_8": {
+    "model_hash": "6093f6f2a1",
+    "model_path": "/home/alaltischenko/proj/tinyllm/fine-tune-lora-2/inference/config/E_1/../../../runs/3964836_1_ftl_F_8_2026-05-06_06-43-31/out/ckpt_best.pt",
+    "output_file": "ftl_F_8.jsonl"
+  },
+  "ftl_F_19": {
+    "model_hash": "1801cb1361",
+    "model_path": "/home/alaltischenko/proj/tinyllm/fine-tune-lora-2/inference/config/E_1/../../../runs/4101454_0_ftl_F_19_2026-06-16_13-01-57/out/ckpt.pt",
+    "output_file": "ftl_F_19.jsonl"
+  },
+  "ftl_F_7": {
+    "model_hash": "7e53e0d044",
+    "model_path": "/home/alaltischenko/proj/tinyllm/fine-tune-lora-2/inference/config/E_1/../../../runs/3958348_1_ftl_F_7_2026-05-05_07-36-36/out/ckpt.pt",
+    "output_file": "ftl_F_7.jsonl"
+  }
+}

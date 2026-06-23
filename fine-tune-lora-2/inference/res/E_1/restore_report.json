@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-06-21T20:24:20+00:00",
+  "map_path": "/home/user_mi/user_mi/HSE/2025_2026/search_programm/comments/experiments/fine-tune-lora-2/inference/data/E_1_blind_map.json",
+  "judged_files": [
+    "res/E_1_blind_judged.jsonl"
+  ],
+  "total_judged_rows": 3500,
+  "total_map_entries": 3500,
+  "restored_rows": 3500,
+  "written_files": {
+    "base": "/home/user_mi/user_mi/HSE/2025_2026/search_programm/comments/experiments/fine-tune-lora-2/inference/res/E_1/judged_base.jsonl",
+    "ftl_F_1": "/home/user_mi/user_mi/HSE/2025_2026/search_programm/comments/experiments/fine-tune-lora-2/inference/res/E_1/judged_ftl_F_1.jsonl",
+    "ftl_F_19": "/home/user_mi/user_mi/HSE/2025_2026/search_programm/comments/experiments/fine-tune-lora-2/inference/res/E_1/judged_ftl_F_19.jsonl",
+    "ftl_F_7": "/home/user_mi/user_mi/HSE/2025_2026/search_programm/comments/experiments/fine-tune-lora-2/inference/res/E_1/judged_ftl_F_7.jsonl",
+    "ftl_F_8": "/home/user_mi/user_mi/HSE/2025_2026/search_programm/comments/experiments/fine-tune-lora-2/inference/res/E_1/judged_ftl_F_8.jsonl"
+  },
+  "combined_file": "/home/user_mi/user_mi/HSE/2025_2026/search_programm/comments/experiments/fine-tune-lora-2/inference/res/E_1/judged_all.jsonl",
+  "warnings": [],
+  "duplicate_sample_ids": [],
+  "missing_in_map": [],
+  "not_judged_count": 0,
+  "not_judged_first_50": []
+}
